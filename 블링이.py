@@ -1,7 +1,3 @@
-# https://discord.com/api/oauth2/authorize?client_id=788701718791323648&permissions=8&scope=bot
-# https://discord.com/developers/applications
-# https://www.youtube.com/watch?v=4TbFad1r5q4 유튜브 공부중
-
 import discord
 import asyncio
 import os
