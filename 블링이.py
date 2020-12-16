@@ -4,11 +4,9 @@
 
 import discord
 import asyncio
+import os
 
 client = discord.Client()
-
-token = "Nzg4NzAxNzE4NzkxMzIzNjQ4.X9nVtw.nwukX2agxB-ERRoDzmu04iaz_0c"
-
 
 #디스코드 라인을 단축시킴
 d_line = '~~                                                                                                                                                                                                                                                                                                                            ~~\n'
@@ -81,6 +79,6 @@ async def on_message(message):
 
 
 
-
+token = os.environ["BOT_TOKEN"]
 
 client.run(token)
